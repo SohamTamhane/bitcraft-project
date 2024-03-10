@@ -1,0 +1,195 @@
+@font-face {
+    font-family: 'Baloo';
+    src: url('../../Assets/Fonts/Baloo.ttf');
+}
+.brand-div-main{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    text-align: center;
+}
+.brand-div-img-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.brand-div-img{
+    width: auto;
+    height: 45px;
+}
+.page-main-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    padding: 60px 0px;
+}
+.yellow-span{
+    color: #FACC15;
+}
+.brand-tagline-div{
+    font-family: 'Baloo';
+    font-size: 20px;
+}
+
+.auth-div{
+    background-color: #272727;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 40px 40px;
+    border-radius: 10px;
+    margin-left: 40px;
+}
+.auth-heading{
+    font-family: 'Baloo';
+    font-size: 22px;
+}
+.auth-btn-div{
+    margin-top: 20px;
+}
+.auth-btn{
+    background-color: #131313;
+    padding: 8px 30px;
+    border-radius: 10px;
+    font-family: 'Mukta', sans-serif;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    cursor: pointer;
+    width: 250px;
+    justify-content: center;
+}
+.auth-btn:hover{
+    background-color: #191919;
+}
+.auth-logo{
+    font-size: 18px;
+    margin-right: 8px;
+}
+.auth-text-div{
+    margin-top: 10px;
+}
+.auth-text{
+    font-family: 'Mukta', sans-serif;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.auth-text-div1{
+    margin-top: 15px;
+}
+
+.auth-text1{
+    font-family: 'Mukta', sans-serif;
+    font-size: 18px;
+    color: #ff4e4e;
+    font-weight: 600;
+}
+
+.auth-label{
+    font-family: 'Mukta', sans-serif;
+    font-weight: bold;
+    text-align: left;
+    font-size: 16px;
+    padding-left: 5px;
+    margin-bottom: 5px;
+}
+.auth-inp{
+    background-color: #131313;
+    padding: 10px 10px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Mukta', sans-serif;
+    margin-bottom: 10px;
+    font-size: 16px;
+    width: 250px;
+}
+.auth-btn-white{
+    font-family: 'Mukta', sans-serif;
+    background-color: white;
+    color: black;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 5px 12px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.auth-btn-white:hover{
+    font-family: 'Mukta', sans-serif;
+    background-color: #131313;
+    color: white;
+    border: 1.5px solid white;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 5px 12px;
+    border-radius: 10px;
+    cursor: pointer;
+    /* transition: all 0.5s; */
+}
+
+.auth-btn-div{
+    margin-top: 20px;
+}
+
+.otp-field{
+    background-color: #131313;
+    color: white;
+    outline: none;
+    border: none;
+    margin: 0px 3px;
+    width: 50px;
+    height: 50px;
+    padding: 15px;
+    font-size: 30px;
+    border-radius: 5px;
+    font-family: 'Mukta', sans-serif;
+    font-weight: bold;
+}
+
+.otp-field::-webkit-outer-spin-button,
+.otp-field::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.auth-text2{
+    /* margin-top: 10px; */
+    font-size: 16px;
+}
+
+/* .auth-text-div2{
+    margin-top: 0px;
+} */
+
+@media screen and (max-width:794px) {
+    .brand-div-main{
+        display: none;
+    }
+    .auth-div{
+        margin: 0;
+    }
+}
+
+@media screen and (max-width:394px) {
+    .auth-div{
+        padding: 40px 30px;
+    }
+}
+
+@media screen and (max-width:453px) {
+    .auth-otp-main-div{
+        padding: 40px 10px;
+    }
+    .otp-field{
+        padding: 10px;
+        width: 35px;
+        height: 35px;
+        font-size: 20px;
+    }
+}

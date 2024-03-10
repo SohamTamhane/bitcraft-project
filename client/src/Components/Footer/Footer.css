@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+
+.footer-link-div{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Mukta', sans-serif;
+    padding: 20px 50px;
+    /* background-color: #010410; */
+    background-color: #121212;
+    margin-top: 25px;
+}
+
+.footer-link-div div{
+    display: grid;
+}
+.footer-link-heading{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.footer-name-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0px;
+}
+
+.footer-logo{
+    width: auto;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.footer-name-div div{
+    font-size: 18px;
+    font-family: 'Mukta', sans-serif;
+}
+
+@media screen and (max-width: 661px) {
+    .footer-link-div{
+        padding: 30px;
+    }
+}
+
+@media screen and (max-width: 546px) {
+    .footer-link-div{
+        display: grid;
+        grid-template-columns: auto auto;
+        padding: 20px 90px;
+    }
+    .footer-link-div div{
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .footer-link-div{
+        padding: 20px 50px;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .footer-logo{
+        height: 25px;
+    }
+    .footer-name-div div{
+        font-size: 15px;
+    }
+}
